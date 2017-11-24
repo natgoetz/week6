@@ -1,0 +1,14 @@
+div {
+    width:5vw;
+    height:10vh;
+    background-color:red;
+    -webkit-transition: width 2s, height 4s;
+    transition: width 2s, height 4s;
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
+}
+
+div:hover {
+    width:10vw;
+    height:20vh;
+}
