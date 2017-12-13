@@ -4,11 +4,41 @@
 .container {
     display: grid;
     grid-template-columns: 100px 100px 100px 100px 100px;
-    grid-template-rows: 100px 100px;
+    grid-template-rows: 110px 110px;
 }
 
 
 div {
-    width: 50%;
     float: right;
+    border: black;
+}
+
+
+img {
+    width: 110%;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+
+p {
+    float: left;
+    margin-left: 5%;
+    padding: 10px;
+}
+
+i {
+    float: left;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    color: forestgreen;
 }
